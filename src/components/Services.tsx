@@ -29,7 +29,7 @@ export default function Services() {
             ];
             
             const colorClass = cardColors[index % cardColors.length];
-            const [textColor, bgColor, borderColor, hoverBorder] = colorClass.split(' ');
+            const [textColor, bgColor] = colorClass.split(' ');
 
             return (
               <div

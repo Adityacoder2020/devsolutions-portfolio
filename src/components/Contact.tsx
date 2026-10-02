@@ -15,7 +15,7 @@ export default function Contact() {
           <div className="lg:w-2/5 bg-brand-900 text-white p-10 lg:p-12 flex flex-col justify-between relative overflow-hidden">
             
             <div className="relative z-10">
-              <h2 className="text-3xl font-bold mb-4">Let's Talk</h2>
+              <h2 className="text-3xl font-bold mb-4">Let&apos;s Talk</h2>
               <p className="text-brand-100 mb-10">
                 Ready to start your next project? Reach out to us for a free consultation and quote.
               </p>

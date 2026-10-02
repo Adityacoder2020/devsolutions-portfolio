@@ -35,7 +35,7 @@ export default function About() {
               Empowering Businesses with Cutting-Edge Digital Solutions
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              At DevSolutions, we don't just write code; we build digital experiences that drive growth. 
+              At DevSolutions, we don&apos;t just write code; we build digital experiences that drive growth. 
               Whether you need a high-converting e-commerce platform, a custom web application, or a 
               stunning corporate portfolio, our team delivers reliable solutions with fast turnaround times.
             </p>
@@ -51,7 +51,7 @@ export default function About() {
 
             <div className="p-6 bg-brand-50 rounded-xl border border-brand-100">
               <p className="text-brand-900 font-medium italic">
-                "Our mission is to bridge the gap between your business goals and the technology needed to achieve them."
+                &ldquo;Our mission is to bridge the gap between your business goals and the technology needed to achieve them.&rdquo;
               </p>
             </div>
           </div>

@@ -11,12 +11,12 @@ export default function Portfolio() {
           <p className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-brand-600">A few things we have made</p>
           <h2 className="text-4xl md:text-5xl font-black tracking-[-0.04em] text-brand-900 mb-4">Selected work.</h2>
           <p className="text-lg text-gray-600">
-            Explore some of the recent websites and applications we've built for our clients across various industries.
+            Explore some of the recent websites and applications we&apos;ve built for our clients across various industries.
           </p>
         </div>
 
         <div className="grid grid-cols-1 gap-0 border-t-2 border-brand-900">
-          {projects.map((project, index) => {
+          {projects.map((project) => {
             
             return (
             <div
