@@ -1,10 +1,15 @@
-import { ShoppingCart, Globe, Smartphone, Palette, Wrench, TrendingUp } from 'lucide-react';
+import { ShoppingCart, Bot, Globe, Smartphone, Palette, Wrench, TrendingUp } from 'lucide-react';
 
 export const services = [
   {
     title: "E-Commerce Development",
     description: "Robust online stores optimized for sales, integrating secure payments and inventory management.",
     icon: ShoppingCart,
+  },
+  {
+    title: "AI Agents & Workflow Automation",
+    description: "Custom AI agents built around your business processes to handle repeatable tasks, route requests, and move information between your tools—so your team can spend less time on manual work.",
+    icon: Bot,
   },
   {
     title: "Website Development",

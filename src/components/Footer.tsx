@@ -38,6 +38,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-brand-200">
               <li>E-Commerce Development</li>
+              <li>AI Agents &amp; Automation</li>
               <li>Custom Web Apps</li>
               <li>Corporate Websites</li>
               <li>UI/UX Design</li>
