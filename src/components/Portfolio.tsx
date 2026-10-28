@@ -17,6 +17,8 @@ export default function Portfolio() {
 
         <div className="grid grid-cols-1 gap-0 border-t-2 border-brand-900">
           {projects.map((project) => {
+            const isInternalAnchor = project.url.startsWith("#");
+            const ctaLabel = project.isConcept ? "Request Demo" : "Visit Live Site";
             
             return (
             <div
@@ -32,11 +34,11 @@ export default function Portfolio() {
                 
                 <a
                   href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={isInternalAnchor ? undefined : "_blank"}
+                  rel={isInternalAnchor ? undefined : "noopener noreferrer"}
                   className="col-start-2 mt-4 inline-flex items-center font-bold text-brand-900 hover:text-brand-600 transition-colors md:col-start-auto md:mt-0"
                 >
-                  Visit Live Site <ExternalLink size={16} className="ml-2" />
+                  {ctaLabel} <ExternalLink size={16} className="ml-2" />
                 </a>
             </div>
             );
