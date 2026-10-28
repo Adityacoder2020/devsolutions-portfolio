@@ -40,5 +40,37 @@ export const projects = [
     description: "Premium website for a luxury hand-embroidery manufacturer serving 100+ global luxury fashion brands.",
     industry: "Luxury / Exports",
     url: "https://www.aarzzo.com/",
-  }
+  },
+  {
+    id: 7,
+    title: "Roast & Pour Cafe",
+    description: "Portfolio concept for a neighborhood coffee shop with online ordering, pickup scheduling, and seasonal menu highlights.",
+    industry: "E-Commerce Concept / Cafe",
+    url: "#contact",
+    isConcept: true,
+  },
+  {
+    id: 8,
+    title: "Urban Spice Kitchen",
+    description: "Restaurant concept website featuring table reservations, food ordering, and delivery-ready menu browsing.",
+    industry: "E-Commerce Concept / Restaurant",
+    url: "#contact",
+    isConcept: true,
+  },
+  {
+    id: 9,
+    title: "Willow Lane Boutique",
+    description: "Small retail storefront concept focused on curated collections, simple checkout flow, and inventory-friendly merchandising.",
+    industry: "E-Commerce Concept / Boutique Retail",
+    url: "#contact",
+    isConcept: true,
+  },
+  {
+    id: 10,
+    title: "FixRight Local Services",
+    description: "Local service business concept combining service packages, appointment booking, and online payments in one storefront.",
+    industry: "E-Commerce Concept / Local Services",
+    url: "#contact",
+    isConcept: true,
+  },
 ];

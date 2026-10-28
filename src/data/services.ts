@@ -1,15 +1,10 @@
-import { ShoppingCart, Bot, Globe, Smartphone, Palette, Wrench, TrendingUp } from 'lucide-react';
+import { ShoppingCart, Globe, Smartphone, Palette, Wrench, TrendingUp, PhoneCall, Workflow, MessageSquare, Users, FileText } from 'lucide-react';
 
 export const services = [
   {
     title: "E-Commerce Development",
     description: "Robust online stores optimized for sales, integrating secure payments and inventory management.",
     icon: ShoppingCart,
-  },
-  {
-    title: "AI Agents & Workflow Automation",
-    description: "Custom AI agents built around your business processes to handle repeatable tasks, route requests, and move information between your tools—so your team can spend less time on manual work.",
-    icon: Bot,
   },
   {
     title: "Website Development",
@@ -36,4 +31,32 @@ export const services = [
     description: "Strategic SEO and analytics integrations to help your business scale and reach more customers.",
     icon: TrendingUp,
   }
+];
+
+export const agenticAIServices = [
+  {
+    title: "AI Voice Agents",
+    description: "Inbound and outbound voice agents for appointment booking, lead qualification, and always-on customer support.",
+    icon: PhoneCall,
+  },
+  {
+    title: "Workflow Automation",
+    description: "Automations that connect your CRM, forms, email, and internal tools to eliminate repetitive manual steps.",
+    icon: Workflow,
+  },
+  {
+    title: "AI Chat Agents",
+    description: "Website and WhatsApp-style chat agents that answer FAQs, collect context, and hand off to your team when needed.",
+    icon: MessageSquare,
+  },
+  {
+    title: "CRM & Lead Automation",
+    description: "Smart lead routing, follow-up reminders, and pipeline updates that keep your sales process moving.",
+    icon: Users,
+  },
+  {
+    title: "Document & Data Processing",
+    description: "Agentic flows that extract, summarize, and organize business data from forms, invoices, and other documents.",
+    icon: FileText,
+  },
 ];
